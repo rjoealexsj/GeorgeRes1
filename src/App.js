@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import img1 from'./geo/jesus.jpg';
+import img1 from'./geo2/georgestand.jpg';
+
+
 
 function App() {
   return (
@@ -16,10 +18,9 @@ function App() {
      <h2 style={{color:'red',fontSize:'120px'}}>Jesus 100px</h2>
      <img src={img1} style={{width:'300px',borderRadius:'20%'}} />
      </div>
-     
-     
-
+      
    </div>
+
   )
 }
 
