@@ -20,10 +20,8 @@ function App() {
      <h2 style={{color:'red',fontSize:'120px'}}>Jesus 100px</h2>
      <img src={img3} style={{width:'300px',borderRadius:'20%'}} />
      </div>
-      <h2 style={{color:'blue'}}>Jesus 100px</h2> 
-     <img src={img3} style={{width:'350px', border:'20px solid green', borderRadius:'40%'}} />
-     
-    
+     <h2 style={{color:'blue'}}>Jesus 100px</h2> 
+     <img src={img3} style={{width:'350px', border:'20px solid green', borderRadius:'40%',float:'right'}} />
       
    </div>
 
