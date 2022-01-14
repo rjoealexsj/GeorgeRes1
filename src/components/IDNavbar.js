@@ -14,7 +14,8 @@ export default class IDNavbar extends Component {
     full
   >
     <NavbarBrand href="/">
-      VJ
+    <h1 style={{color:'red', fontWeight:'bold',fontStyle:'italic'}}>VIDYAJYOTI</h1>
+      
     </NavbarBrand>
     <NavbarToggler onClick={function noRefCheck(){}} />
     <Collapse navbar>
