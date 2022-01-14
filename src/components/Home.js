@@ -7,7 +7,8 @@ export default class Home extends Component {
             <div style={{backgroundColor:'pink'}}>
 
                    <div className='text-center p-4 bg-primary'>
-       <h1 style={{color:'black', background:'yellow', border:'10px solid black', fontWeight:'900',fontStyle:'italic'}}>JESUIT RESIDENCE</h1>
+       <h1 style={{color:'black', fontWeight:'900',fontStyle:'italic'}}>JESUIT RESIDENCE</h1>
+       
        </div>
        <FormGroup style={{overflow:"visible", paddingTop:'50px'}} >
    <Row style={{marginBottom:'20px'}}>
