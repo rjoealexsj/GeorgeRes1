@@ -4,7 +4,7 @@ import {Col,FormGroup,Input,Label,Row,ButtonDropdown,DropdownToggle,DropdownMenu
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div style={{backgroundColor:'pink'}}>
                    <div className='text-center p-4 bg-primary'>
        <h1 style={{color:'black'}}>Jesuit Residence</h1>
        </div>
