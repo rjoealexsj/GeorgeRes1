@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
 import {Col,FormGroup,Input,Label,Row,ButtonDropdown,DropdownToggle,DropdownMenu,DropdownItem} from 'reactstrap';
+import img from '../geo2/georgestand.jpg';
 
 export default class Home extends Component {
     render() {
         return (
             <div style={{backgroundColor:'pink'}}>
-
+<img src={img} style={{width:'300px'}}/>
                    <div className='text-center p-4 bg-primary'>
-       <h1 style={{color:'black', fontWeight:'900',fontStyle:'italic'}}>JESUIT RESIDENCE</h1>
+                     
+       <h1 style={{color:'black', fontWeight:'900',fontStyle:'italic'}}>JESUIT RESIDENCE 
+       
+      </h1>
+      <br/> <h1 style={{color:'black', fontWeight:'900',fontStyle:'italic'}}> 
+        
+        Cvillines
+      <br/>Delhi
+      </h1>
        
        </div>
        <FormGroup style={{overflow:"visible", paddingTop:'50px'}} >
