@@ -6,6 +6,13 @@ import img2 from'../hospital/slide2.jpg';
 import img3 from'../hospital/slide3.jpg';
 import img4 from'../hospital/about.jpg';
 import img5 from'../hospital/features.jpg';
+import img6 from'../hospital/departments1.jpg';
+import img7 from'../hospital/departments2.jpg';
+import img8 from'../hospital/departments3.jpg';
+import img9 from'../hospital/departments4.jpg';
+import img10 from'../hospital/departments5.jpg';
+import testimonials1 from'../hospital/testimonials-1.jpg';
+import testimonials2 from'../hospital/testimonials-2.jpg';
 import { Input } from 'reactstrap';
 
 
@@ -435,25 +442,25 @@ export default class Homenew extends Component {
               <div className="tab-pane active show" id="tab-1">
                 <h3>Cardiology</h3>
                 <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="assets/img/departments-1.jpg" alt="" className="img-fluid">
+                <img src={img5} alt="" className="img-fluid"/>
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div className="tab-pane" id="tab-2">
                 <h3>Neurology</h3>
                 <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="assets/img/departments-2.jpg" alt="" className="img-fluid">
+                <img src={img6} alt="" className="img-fluid"/>
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div className="tab-pane" id="tab-3">
                 <h3>Hepatology</h3>
                 <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="assets/img/departments-3.jpg" alt="" className="img-fluid">
+                <img src={img7} alt="" className="img-fluid"/>
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
               <div className="tab-pane" id="tab-4">
                 <h3>Pediatrics</h3>
                 <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="assets/img/departments-4.jpg" alt="" className="img-fluid">
+                <img src={img8} alt="" className="img-fluid"/>
                 <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
               </div>
             </div>
@@ -462,6 +469,49 @@ export default class Homenew extends Component {
 
       </div>
     </div>
+
+
+    <div id="testimonials" className="testimonials"/>
+      <div className="container" data-aos="fade-up">
+
+        <div className="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div className="swiper-wrapper">
+
+            <div className="swiper-slide">
+              <div className="testimonial-item">
+                <p>
+                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={testimonials1} className="testimonial-img" alt=""/>
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+
+
+            <div className="swiper-slide">
+              <div className="testimonial-item">
+                <p>
+                  <i className="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i className="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src={testimonials2} className="testimonial-img" alt=""/>
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
 
 
 
